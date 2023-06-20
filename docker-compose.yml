@@ -1,0 +1,17 @@
+services:
+  api:
+    build: ./backend
+    network_mode: host
+    depends_on:
+      - db
+    volumes:
+      - ./seed_data:/seed_data
+    environment:
+      - MONGO_HOST=localhost
+      - MONGO_NAME=powerflex
+      - SEED_PATH=/seed_data
+  db:
+    image: mongo
+    network_mode: host
+    
+
