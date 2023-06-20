@@ -2,12 +2,6 @@ from pymongo import MongoClient
 import json
 import os
 
-
-db_host = 'localhost'
-db_port = 27017  #Default MongoDB port
-db_name = 'powerflex'
-
-
 class DataBase:
     _instance = None
 
