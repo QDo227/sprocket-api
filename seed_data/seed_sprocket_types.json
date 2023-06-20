@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "teeth": 5,
+    "pitch_diameter": 5,
+    "outside_diameter": 6,
+    "pitch": 1
+  },
+  {
+    "id": 2,
+    "teeth": 6,
+    "pitch_diameter": 4,
+    "outside_diameter": 5,
+    "pitch": 2
+  },
+  {
+    "id": 3,
+    "teeth": 7,
+    "pitch_diameter": 3,
+    "outside_diameter": 4,
+    "pitch": 3
+  }
+]
+
